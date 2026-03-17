@@ -1,0 +1,8 @@
+document.getElementById('reserveForm')?.addEventListener('submit', function(e){
+ e.preventDefault();
+ document.getElementById('reserveMsg').innerText = "Table Reserved Successfully!";
+});
+
+function order(item){
+ document.getElementById('orderMsg').innerText = item + " ordered successfully!";
+}
